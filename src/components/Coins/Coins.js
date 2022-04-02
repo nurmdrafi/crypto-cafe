@@ -18,7 +18,7 @@ const Coins = () => {
     <div>
       <h2 className="text-center my-3">Available Crypto Currencies</h2>
       <p className="text-center mb-5">Total Coins: {coins.length}</p>
-      <Row xs={1} sm={2} md={3} lg={3} className="g-4" style={{ marginLeft: 0, marginRight: 0 }}>
+      <Row xs={1} sm={2} md={3} lg={4} className="g-4" style={{ marginLeft: 0, marginRight: 0 }}>
         {coins.map((coin) => (
           <CoinCard key={coin.id} data={coin}></CoinCard>
         ))}

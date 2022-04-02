@@ -6,7 +6,7 @@ const CoinCard = ({ data }) => {
   const { id, name, image, symbol } = data;
   return (
     <Col className="card-container">
-      <Card>
+      <Card style={{border: 'none', backgroundColor: 'transparent'}}>
         <div className="coin-card">
           <div className="image-container">
             <img src={image} alt="" />
