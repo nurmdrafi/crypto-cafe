@@ -1,10 +1,8 @@
 .footer {
+  margin-top: 0;
+  margin-bottom: -10px;
+  padding-bottom: 5px;
   height: 100px;
-  background-color: rgb(230, 255, 254);
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  padding: 10px;
 }
 .footer .social-media-links {
   display: flex;

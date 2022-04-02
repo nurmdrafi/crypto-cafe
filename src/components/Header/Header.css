@@ -8,6 +8,10 @@
     font-weight: 800;
 }
 
+.logo a, .logo a:hover{
+    text-decoration: none;
+    color: black;
+}
 .logo span{
     color: lightseagreen;
 }

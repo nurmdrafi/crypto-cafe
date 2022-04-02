@@ -1,0 +1,30 @@
+.card-container{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    
+}
+.coin-card {
+  width: 250px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  
+  box-shadow:  3px 3px 6px #f2f2f2,
+               -3px -3px 6px #ffffff;
+}
+.coin-card .image-container {
+  width: 60px;
+  height: 60px;
+}
+
+.coin-card .image-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.coin-card p{
+    font-size: .85em;
+}
