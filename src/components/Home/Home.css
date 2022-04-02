@@ -1,15 +1,19 @@
-.not-found {
+.home {
   display: flex;
   flex-direction: column;
-  min-width: 300px;
   justify-content: center;
   height: 60vh;
   align-items: center;
 }
-.not-found button{
+.home span {
+  color: lightseagreen;
+}
+.home button {
+  margin: 10px;
   border: 0;
   padding: 10px;
 }
-.not-found button:hover{
+.home button:hover{
   background-color: lightseagreen;
+  
 }
