@@ -1,10 +1,11 @@
 .not-found {
   display: flex;
   flex-direction: column;
-  min-width: 300px;
-  justify-content: center;
-  height: 60vh;
   align-items: center;
+}
+.not-found .details{
+  padding-top: 5%;
+  min-height: calc(100vh - 202px);
 }
 .not-found button{
   border: 0;

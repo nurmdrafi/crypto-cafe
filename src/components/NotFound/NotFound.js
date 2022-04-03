@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./NotFound.css";
+import Footer from "../Footer/Footer";
 
 const NotFound = () => {
   return (
@@ -15,11 +16,12 @@ const NotFound = () => {
           may have moved.
         </p>
         <Link to="/home">
-          <button type="button" class="btn btn-dark">
+          <button type="button" className="btn btn-dark">
             Back to homepage
           </button>
         </Link>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

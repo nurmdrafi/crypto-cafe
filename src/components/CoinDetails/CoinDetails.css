@@ -1,0 +1,12 @@
+.coin-details{
+    min-height: calc(100vh - 200px);
+}
+.details p{
+    margin: 0;
+}
+
+.coin-details .image-container img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}

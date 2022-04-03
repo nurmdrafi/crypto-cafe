@@ -13,7 +13,6 @@ const Coins = () => {
       .then((res) => res.json())
       .then((data) => setCoins(data));
   }, []);
-  console.log(coins.length);
   return (
     <div>
       <h2 className="text-center my-3">Available Crypto Currencies</h2>

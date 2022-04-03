@@ -11,7 +11,7 @@ const Home = () => {
         Welcome to <b>Crypto <span>Watch</span></b>
       </h1>
       <Link to="/coins">
-        <button type="button" class="btn btn-dark">
+        <button type="button" className="btn btn-dark">
           Explore Coins
         </button>
       </Link>

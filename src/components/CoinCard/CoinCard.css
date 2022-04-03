@@ -1,8 +1,7 @@
 .card-container{
     width: 300px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
 .coin-card {
@@ -17,6 +16,7 @@
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
                
 }
+
 .coin-card .image-container {
   width: 60px;
   height: 60px;
@@ -27,6 +27,11 @@
   width: 100%;
   object-fit: contain;
 }
-.coin-card p{
-    font-size: .85em;
+.card-details{
+  width: 45%;
 }
+.card-details p{
+    font-size: .85em;
+    margin: 0;
+}
+
